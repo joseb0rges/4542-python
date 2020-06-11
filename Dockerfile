@@ -1,6 +1,6 @@
 FROM alpine
 
-EXPOSE 8080
+EXPOSE 80
 
 RUN apk add --no-cache py3-flask && mkdir /app
 COPY . /app
